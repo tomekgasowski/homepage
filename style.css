@@ -1,0 +1,25 @@
+body {
+    background-color: #b1ab62;
+}
+
+.header {
+    font-size: 40px;
+    color: rgba(155, 83, 83, 0.767);
+}
+
+.navigation {
+    background-color: #5228c7;
+}
+
+.navigation-link {
+    font-size: 20px;
+    color:yellowgreen;
+}
+
+.section-header {
+ color:rgba(194, 0, 65, 0.767)
+}
+
+.article-header {
+    color:rgba(34, 172, 160, 0.767)
+}
