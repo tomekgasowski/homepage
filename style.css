@@ -9,6 +9,7 @@ body {
 
 .navigation {
     background-color: #3a3055;
+    border-radius: 10px;
 }
 
 .navigation-link {
