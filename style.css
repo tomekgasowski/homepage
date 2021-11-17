@@ -1,3 +1,9 @@
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
 body {
     background-color: #b1ab62;
 }
@@ -25,3 +31,6 @@ body {
     color:rgba(5, 44, 41, 0.925)
 }
 
+.special-cat {
+    max-width: 100%;
+}
