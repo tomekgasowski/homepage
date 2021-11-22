@@ -8,28 +8,69 @@ body {
 }
 
 .header {
-    font-size: 40px;
-    color: rgba(155, 83, 83, 0.767);
+    margin-bottom: 48px;
+}
+
+.header-title {
+    font-size: 45px;
+    color:rgba(42, 100, 177, 0.671)
 }
 
 .navigation {
     background-color: #3a3055;
+    border-radius: 18px;
+    padding: 8px;
+}
+
+.navigation__link {
+    background-color: rgba(42, 100, 177, 0.671);
+    padding: 2px 8px;
     border-radius: 10px;
+    color: yellowgreen;
+    text-decoration: none;
+    line-height: 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 12px 0 2px;
 }
 
-.navigation-link {
-    font-size: 20px;
-    color:yellowgreen;
+.about {
+    margin-bottom: 32px;
+    border: 2px greenyellow solid;
+    border-radius: 5px;
+    padding: 8px;
+    overflow: hidden;
+    
 }
 
-.section-header {
+.about__heading {
  color:rgba(194, 0, 65, 0.767)
 }
 
-.article-header {
-    color:rgba(5, 44, 41, 0.925)
+.about__image {
+    float: left;
+    overflow: hidden;
+}
+
+
+
+.article {
+    border:2px rgba(42, 100, 177, 0.671) solid;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 8px;
 }
 
 .special-cat {
     max-width: 100%;
+}
+
+.week-summary {
+    margin-bottom: 32px;
+    border: 2px rgb(255, 230, 0) solid;
+    border-radius: 5px;
+    padding: 8px; 
+}
+.week-summary__heading {
+    color:rgba(187, 115, 22, 0.767)
 }
