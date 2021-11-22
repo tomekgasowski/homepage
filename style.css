@@ -1,76 +1,87 @@
 .main {
-    max-width: 1000px;
-    margin: 0 auto;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 body {
-    background-color: #b1ab62;
+  background: rgb(255, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(255, 0, 0, 0.7147992986257004) 0%,
+    rgba(255, 255, 0, 1) 42%,
+    rgba(255, 255, 0, 1) 53%,
+    rgba(0, 172, 255, 0.8996732482055322) 100%
+  );
 }
 
 .header {
-    margin-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .header-title {
-    font-size: 45px;
-    color:rgba(42, 100, 177, 0.671)
+  font-size: 45px;
+  color: rgba(42, 100, 177, 0.671);
 }
 
 .navigation {
-    background-color: #3a3055;
-    border-radius: 18px;
-    padding: 8px;
+  background-color: #ae90ff7c;
+  border-radius: 18px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .navigation__link {
-    background-color: rgba(42, 100, 177, 0.671);
-    padding: 2px 8px;
-    border-radius: 10px;
-    color: yellowgreen;
-    text-decoration: none;
-    line-height: 15px;
-    display: inline-block;
-    text-transform: uppercase;
-    margin: 0 12px 0 2px;
+  background-color: rgb(161, 202, 255);
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  line-height: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 30px;
 }
 
 .about {
-    margin-bottom: 32px;
-    border: 2px greenyellow solid;
-    border-radius: 5px;
-    padding: 8px;
-    overflow: hidden;
-    
+  margin-bottom: 32px;
+  border: 2px greenyellow solid;
+  border-radius: 5px;
+  padding: 8px;
+  overflow: hidden;
 }
 
 .about__heading {
- color:rgba(194, 0, 65, 0.767)
+  color: rgba(194, 0, 65, 0.767);
 }
 
 .about__image {
-    float: left;
-    overflow: hidden;
+  float: left;
+  overflow: hidden;
 }
 
-
-
 .article {
-    border:2px rgba(42, 100, 177, 0.671) solid;
-    border-radius: 5px;
-    padding: 8px;
-    margin-bottom: 8px;
+  border: 2px rgba(42, 100, 177, 0.671) solid;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.js-something {
+  font-size: 40px;
 }
 
 .special-cat {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .week-summary {
-    margin-bottom: 32px;
-    border: 2px rgb(255, 230, 0) solid;
-    border-radius: 5px;
-    padding: 8px; 
+  margin-bottom: 32px;
+  border: 2px rgb(255, 230, 0) solid;
+  border-radius: 5px;
+  padding: 8px;
 }
 .week-summary__heading {
-    color:rgba(187, 115, 22, 0.767)
+  color: rgba(187, 115, 22, 0.767);
 }

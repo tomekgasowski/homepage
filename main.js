@@ -12,9 +12,19 @@ function greeting(name, age) {
 
 greeting('Dupa', 666);
 
-function testing(htmlClass, content) {
+testing = (htmlClass, content) => {
     const duppa = document.querySelector(htmlClass);
     duppa.innerHTML = content;
 }
 
-testing('.js-something', "salty balls");
+testing('.js-something', "salty balls 🧆");
+
+const dupnaTablica = {
+    klucz: "klucznik",
+    kluczyc: 3,
+    tunczyk: (bleBla) => {
+        console.log(`jakieś coś przyjmie czy nie? ${bleBla}`);
+    }
+};
+
+dupnaTablica.tunczyk("naajak!");
