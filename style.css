@@ -82,6 +82,13 @@ body {
   border-radius: 5px;
   padding: 8px;
 }
+
+.week-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 8px;
+}
+
 .week-summary__heading {
   color: rgba(187, 115, 22, 0.767);
 }
