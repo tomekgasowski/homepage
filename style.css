@@ -20,7 +20,7 @@ body {
 
 .header-title {
   font-size: 45px;
-  color: rgba(42, 100, 177, 0.671);
+  color: rgba(25, 60, 105, 0.671);
 }
 
 .navigation {
@@ -53,7 +53,16 @@ body {
 }
 
 .about__heading {
-  color: rgba(194, 0, 65, 0.767);
+  color: rgba(61, 194, 0, 0.767);
+}
+
+.about__heading::before {
+  content: "";
+  display: inline-block;
+  background-color: rgb(4, 0, 255);
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
 }
 
 img {
@@ -97,6 +106,12 @@ img {
 
 .week-summary__heading {
   color: rgba(187, 115, 22, 0.767);
+}
+
+.week-summary__heading::before {
+  content: "😸";
+  font-weight: 100;
+  display: inline-block;
 }
 
 @media screen and (max-width: 786px) {
@@ -167,5 +182,3 @@ img {
     margin: 8px;
   }
 }
-
-
