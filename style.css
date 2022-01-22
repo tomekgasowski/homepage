@@ -4,6 +4,7 @@
   margin: 0 auto; }
 
 body {
+<<<<<<< HEAD
   background: #e67070;
   background: radial-gradient(circle, #fc4949 0%, #ffff79 42%, #96961a 53%, rgba(174, 221, 245, 0.9) 100%); }
 
@@ -12,13 +13,35 @@ body {
   .header__title {
     font-size: 45px;
     color: rgba(25, 60, 105, 0.671); }
+=======
+  background: rgb(184, 144, 144);
+  background: radial-gradient(
+    circle,
+    rgba(136, 85, 85, 0.715) 0%,
+    rgb(107, 107, 8) 42%,
+    rgb(82, 82, 30) 53%,
+    rgba(68, 103, 121, 0.9) 100%
+  );
+  color:rgb(255, 232, 232);
+}
+
+.header {
+  margin-bottom: 48px;
+}
+
+.header-title {
+  font-size: 45px;
+  color: rgba(223, 237, 255, 0.842);
+}
+>>>>>>> testing
 
 .navigation {
-  background-color: #ae90ff7c;
+  background-color: #ece6ffbd;
   border-radius: 18px;
   padding: 8px;
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   justify-content: center; }
   .navigation__link {
     background-color: #a1caff;
@@ -35,6 +58,22 @@ body {
         background-color: #1c4a86;
         color: white;
         margin: 0 5px; } }
+=======
+  justify-content: center;
+}
+
+.navigation__link {
+  background-color: rgb(19, 87, 177);
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: rgb(255, 232, 232);
+  text-decoration: none;
+  line-height: 15px;
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 30px;
+}
+>>>>>>> testing
 
 .about {
   margin-bottom: 32px;
